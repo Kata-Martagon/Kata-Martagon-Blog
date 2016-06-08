@@ -5,6 +5,17 @@ font-style: normal;
 margin: 0;
 }
 
+.navBar {
+  position: fixed;
+  z-index: 1000;
+  top: 10px;
+  left: 10px;
+}
+
+.navBar a:hover {
+  cursor: pointer;
+}
+
 .homepageMenu {
   width: 100%;
   margin-left: auto;
