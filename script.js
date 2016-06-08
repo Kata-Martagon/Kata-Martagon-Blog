@@ -1,7 +1,7 @@
 
 
 function elementInViewport(el) {
-  var top = el.offsetTop;
+  var top = 150 + el.offsetTop;
   // var left = el.offsetLeft;
   // var width = el.offsetWidth;
   // var height = el.offsetHeight;
