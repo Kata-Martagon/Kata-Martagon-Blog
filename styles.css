@@ -46,7 +46,7 @@ margin: 0;
   float: right !important;
 }
 
-section #first {
+section#first, section#second, section#third {
   position: relative;
 }
 
@@ -69,6 +69,14 @@ section #first {
 
 .paper-blue {
   background-color: blue;
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+paper-pink {
+  background-color: blue;
+  background-position: center center;
+  background-repeat: repeat;
 }
 
 .menu {
@@ -81,4 +89,8 @@ section #first {
   font-size: 30px;
   line-height: 27px;
   width: 58px;
+}
+
+@media only screen and (min-width: 64.0625em) .show-for-small-only .hide-for-medium-up {
+  display: none !important;
 }
