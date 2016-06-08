@@ -1,5 +1,12 @@
+body {
+font-family: 'Conv_gs', 'Gill Sans', Arial, sans-serif;
+font-weight: normal;
+font-style: normal;
+margin: 0;
+}
+
 .fullWidth {
-  width: 100;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   min-width: 100%;
@@ -14,6 +21,7 @@
 .halfWidth .left{
   box-sizing: border-box;
 }
+
 .halfWidth {
   width: 50%;
   margin-left: auto;
@@ -67,10 +75,23 @@ section {
   background-color: blue;
 }
 
+
 img {
   width: 100%;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
+
+.menu {
+  position: fixed;
+  z-index: 500;
+  right: 20px;
+  top: 15px;
+  padding: 7 0 7 7;
+  cursor: pointer;
+  font-size: 30px;
+  line-height: 27px;
+  width: 58px;
+
 }

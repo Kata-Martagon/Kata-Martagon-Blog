@@ -38,7 +38,7 @@ function doSomething(scroll_pos) {
 };
 
 window.addEventListener('scroll', function(e) {
-  last_known_scroll_position = window.scrollY;
+  last_known_scroll_position = window.pageYOffset;
   if (!ticking) {
     window.requestAnimationFrame(function() {
       doSomething(last_known_scroll_position);
