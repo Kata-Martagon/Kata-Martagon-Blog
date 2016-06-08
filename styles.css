@@ -5,6 +5,54 @@ font-style: normal;
 margin: 0;
 }
 
+.homepageMenu {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  height: 100vh;
+  background-color: black;
+
+}
+
+.homepageMenu .about {
+
+  right: 50px;
+  padding-left: 100px;
+  top: 15px;
+  z-index: 500;
+  cursor: pointer;
+  font-size: 50px;
+  padding-top: 120px;
+  line-height: 27px;
+  width: 160px;
+
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.homepageMenu .links {
+  color: white;
+  text-align: right;
+  padding-right: 100px;
+  z-index: 500;
+  cursor: pointer;
+  font-size: 50px;
+  padding-top: 150px;
+}
+
+.homepageMenu .blog {
+  color: white;
+  text-align: center;
+  z-index: 500;
+  cursor: pointer;
+  font-size: 50px;
+  padding-top: 150px;
+}
+
 .fullWidth {
   width: 100%;
   margin-left: auto;
@@ -28,7 +76,7 @@ margin: 0;
   margin-right: auto;
   max-width: 100%;
   height: 100vh;
-  background-color: green;
+  background-color: white;
 }
 
 .fixed {
@@ -46,6 +94,17 @@ margin: 0;
   float: right !important;
 }
 
+
+.separation-line:after {
+    content:"";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    border-left: 2px solid rgb(81, 130, 157);
+}
+
 section {
   position: relative;
 }
@@ -57,22 +116,42 @@ section {
 .tall {
   height: 100vh;
 }
-
-.paper-white {
-  background-color: beige;
-  background-position: center center;
-  background-repeat: repeat;
-
-}
-
 .row {
   margin: 0 auto;
   max-width: 62.5rem;
   width: 100%;
 }
 
+.paper-white {
+  background-color: rgb(111,178,214);
+  background-position: center center;
+  background-repeat: repeat;
+
+}
+
+.paper-pink{
+  background-color: rgb(47,155,214);
+  background-position: center center;
+  background-repeat: repeat;
+
+}
+
+
 .paper-blue {
-  background-color: blue;
+  background-color: rgb(30,99,137);
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+
+.header {
+  text-align: center;
+  color: rgb(181,218,237);
+  z-index: 500;
+  top: 30px;
+  cursor: pointer;
+  font-size: 50px;
+  padding-top: 150px;
 }
 
 
@@ -92,11 +171,13 @@ img {
 
 }
 
+
 .menu {
   position: fixed;
   z-index: 500;
   right: 20px;
   top: 15px;
+  color: white;
   padding: 7 0 7 7;
   cursor: pointer;
   font-size: 30px;
