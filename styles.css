@@ -1,32 +1,9 @@
-html {
-  height: 100%;
-}
-
 body {
 font-family: 'Conv_gs', 'Gill Sans', Arial, sans-serif;
 font-weight: normal;
 font-style: normal;
 margin: 0;
-height: 100%;
 }
-
- p {
-   color: white;
-   text-align: center;
- }
-
-
-.navBar {
-  position: fixed;
-  z-index: 1000;
-  top: 10px;
-  left: 10px;
-}
-
-.navBar a:hover {
-  cursor: pointer;
-}
-
 
 .homepageMenu {
   width: 100%;
@@ -61,7 +38,7 @@ height: 100%;
   padding-right: 100px;
   z-index: 500;
   cursor: pointer;
-  font-size: 100px;
+  font-size: 50px;
   padding-top: 150px;
   border: 1px;
 }
@@ -213,7 +190,7 @@ opacity: 0.9;
   z-index: 500;
   top: 30px;
   cursor: pointer;
-  font-size: 80px;
+  font-size: 50px;
   padding-top: 150px;
 }
 .header-about {
@@ -257,6 +234,11 @@ img {
   color: white;
 }
 
-@media only screen and (min-width: 64.0625em) .show-for-small-only .hide-for-medium-up {
+/*
+      Media Queries
+*/
+@media only screen and (min-width: 64.0625em) {
+  .show-for-small-only .hide-for-medium-up {
   display: none !important;
+}
 }
