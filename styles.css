@@ -12,24 +12,36 @@ margin: 0;
   min-width: 100%;
   height: 100vh;
   background-color: black;
+
 }
 
 .homepageMenu .about {
-  color: white;
-  text-align: center;
+
+  right: 50px;
+  padding-left: 100px;
+  top: 15px;
   z-index: 500;
   cursor: pointer;
   font-size: 50px;
-  padding-top: 150px;
+  padding-top: 120px;
+  line-height: 27px;
+  width: 160px;
+
+}
+
+.link {
+  text-decoration: none;
+  color: white;
 }
 
 .homepageMenu .links {
   color: white;
-  text-align: center;
+  text-align: right;
+  padding-right: 100px;
   z-index: 500;
   cursor: pointer;
   font-size: 50px;
-  padding-top: 160px;
+  padding-top: 150px;
 }
 
 .homepageMenu .blog {
@@ -38,7 +50,7 @@ margin: 0;
   z-index: 500;
   cursor: pointer;
   font-size: 50px;
-  padding-top: 170px;
+  padding-top: 150px;
 }
 
 .fullWidth {
