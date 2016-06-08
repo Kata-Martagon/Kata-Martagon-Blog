@@ -3,19 +3,23 @@
   <head>
     <meta charset="utf-8">
     <link href="styles.css" rel="stylesheet"/>
-    <script src="script.js"></script>
 
-    <title></title>
+
+    <title>KATA MARTAGON blog</title>
+    <script src="script.js"></script>
   </head>
   <body>
   <div class="fullWidth fullwrap">
     <div class="halfWidth top-block left fixed">
-      <img src="http://i.telegraph.co.uk/multimedia/archive/02830/cat_2830677b.jpg" /><br>
-      <a onclick="scrollToSection('first')">section 1</a><br>
-      <a onclick="scrollToSection('second')">section 2</a><br>
-      <a onclick="scrollToSection('third')">section 3</a>
 
-      <img id="img" src="http://i.telegraph.co.uk/multimedia/archive/02830/cat_2830677b.jpg" /><br>
+      <div class="separation-line"></div>
+      <div id="fade">
+        <img id="img3" src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Eyjafjallaj%C3%B6kull.jpeg" />
+        <img id="img2" src="https://i.vimeocdn.com/portrait/58832_300x300.jpg" />
+        <img id="img1" src="http://i.telegraph.co.uk/multimedia/archive/02830/cat_2830677b.jpg" />
+      </div>
+      <br>
+
       <a onclick="scrollToSection('first')">section 1</a><br>
       <a onclick="scrollToSection('second')">section 2</a><br>
       <a onclick="scrollToSection('third')">section 3</a>
@@ -32,6 +36,8 @@ NU
 
       <section class="row tall paper-white section" id="first" data-panel="first">
 
+          <div class="header"> KATA MARTAGON</div>
+
       </section>
         <!-- end row -->
       <section class="row tall paper-blue section" id="second" data-panel="second">
@@ -39,7 +45,6 @@ NU
       </section>
         <!-- end row -->
       <section class="row tall paper-pink section" id="third" data-panel="third">
-        Third
 
       </section>
         <!-- end row -->
@@ -50,11 +55,11 @@ NU
       <!-- end fullwidth Split -->
       <!-- end full wrap -->
 
-       <script src="scroll.js" charset="utf-8"></script>
 
-      <!-- NOW BEGIN MOBILE MODE :) -->
-  <div class="fullWidth top-block show-for-small-only hide-for-medium-up">
+      <script src="scroll.js" charset="utf-8"></script>
 
-  </div>
+      <script src="scroll.js" charset="utf-8"></script>
+      <script src="script.js"></script>
+
   </body>
 </html>
