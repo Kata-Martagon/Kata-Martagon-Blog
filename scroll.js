@@ -1,3 +1,28 @@
+'use strict';
+
+function onScrollEnd (fn) {
+
+  var lastPosition = getWindowScrollOffset().top;
+  var currentPosition;
+  var scrollDirection;
+  var finalCheck;
+
+  window.addEventListener('scroll', onScrollEvent);
+
+  function onScrollEvent () {
+    currentPosition = getWindowScrollOffset().top;
+
+    if (lastPosition === currentPosition) {
+      fn(scrollDirection);
+    } else {
+      if (finalCheck != null) window.clearTimeout(finalCheck);
+      finalCheck = window.setTimeout(onScrollEvent, 100);
+      scrollDirection = lastPosition < currentPosition ? 'down' : 'up';
+      lastPosition = currentPosition;
+    }
+  }
+}
+
 // Get window scroll offset
 function getWindowScrollOffset () {
   // Get values for ie9
@@ -26,3 +51,22 @@ function scrollToSection (sectionName) {
   // Return false to override default behaviour of <a> tag
   return false;
 }
+
+function scrollToNextSection (scrollDirection) {
+  var sectionNames = ['first', 'second', 'third'];
+  if (scrollDirection === 'up') sectionNames.reverse();
+
+  var nextY =
+    sectionNames
+      .map(function (sectionName) { return document.getElementById(sectionName).getBoundingClientRect().top; })
+      .reduce(function (acc, sectionYPos) {
+        if (acc !== null) return acc;
+        if (scrollDirection === 'down' && sectionYPos >= 0) return sectionYPos;
+        if (scrollDirection === 'up' && sectionYPos <= 0) return sectionYPos;
+        return acc;
+      }, null);
+
+  scrollToY(nextY + getWindowScrollOffset().top, 1000, 'easeInOutQuint');
+}
+
+onScrollEnd(scrollToNextSection);
