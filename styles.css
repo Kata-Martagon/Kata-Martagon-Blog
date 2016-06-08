@@ -145,26 +145,44 @@ opacity: 0.9;
 
 
 .links1{
-  background-color: rgb(255,200,202);
+  background-color: rgb(238,187,62);
   background-position: center center;
   background-repeat: repeat;
 }
 
 .links2{
-  background-color: rgb(153,255,222);
+  background-color: rgb(28,50,89);
   background-position: center center;
   background-repeat: repeat;
 }
 
 .links3{
-  background-color: rgb(250,239,255);
+  background-color: rgb(69,158,182);
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.about1{
+  background-color: rgb(121,242,242);
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.about2{
+  background-color: rgb(114,122,166);
+  background-position: center center;
+  background-repeat: repeat;
+}
+
+.about3{
+  background-color: rgb(1,3,38);
   background-position: center center;
   background-repeat: repeat;
 }
 
 .header {
   text-align: center;
-  color: rgb(181,218,237);
+  color: rgb(181,206,220);
   z-index: 500;
   top: 30px;
   cursor: pointer;
@@ -174,13 +192,23 @@ opacity: 0.9;
 
 .links-header {
   text-align: center;
-  color: rgb(255,255,211);
+  color: rgb(255,253,247);
   z-index: 500;
   top: 30px;
   cursor: pointer;
   font-size: 50px;
   padding-top: 150px;
 }
+.header-about {
+  text-align: center;
+  color: rgb(1,30,51);
+  z-index: 500;
+  top: 30px;
+  cursor: pointer;
+  font-size: 50px;
+  padding-top: 150px;
+}
+
 img {
   width: 100%;
 }
