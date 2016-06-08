@@ -20,7 +20,8 @@ function scrollToSection (sectionName) {
   var yPos = panelOffset.top + windowScrollOffset.top;
 
   // Scroll window to yPos
-  window.scrollTo(0, yPos);
+  // window.scrollTo(0, yPos);
+  scrollToY(yPos, 1000, 'easeInOutQuint');
 
   // Return false to override default behaviour of <a> tag
   return false;
