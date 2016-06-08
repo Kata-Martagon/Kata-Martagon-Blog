@@ -8,7 +8,10 @@
   <body>
   <div class="fullWidth fullwrap">
     <div class="halfWidth top-block left fixed">
-      <img src="http://i.telegraph.co.uk/multimedia/archive/02830/cat_2830677b.jpg" />
+      <img src="http://i.telegraph.co.uk/multimedia/archive/02830/cat_2830677b.jpg" /><br>
+      <a onclick="scrollToSection('first')">section 1</a><br>
+      <a onclick="scrollToSection('second')">section 2</a><br>
+      <a onclick="scrollToSection('third')">section 3</a>
     </div>
     <!-- end block -->
     <div class="halfWidth top-block right overflow-hidden section-wrapper" id="window">
@@ -21,15 +24,15 @@ NU
 <!-- menu -->
 
       <section class="row tall paper-white section" id="first" data-panel="first">
-
+        First
       </section>
         <!-- end row -->
       <section class="row tall paper-blue section" id="second" data-panel="second">
-
+        Second
       </section>
         <!-- end row -->
       <section class="row tall paper-pink section" id="third" data-panel="third">
-
+        Third
       </section>
         <!-- end row -->
     </div>
@@ -37,5 +40,7 @@ NU
 
   </div>
       <!-- end full wrap -->
+
+      <script src="scroll.js" charset="utf-8"></script>
   </body>
 </html>
