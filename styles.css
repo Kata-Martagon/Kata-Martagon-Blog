@@ -35,7 +35,7 @@ margin: 0;
   position: fixed;
   top: 0;
   z-index: 99;
-  left: 0;
+  left: 0;;
 }
 
 .left {
@@ -48,6 +48,10 @@ margin: 0;
 
 section#first, section#second, section#third {
   position: relative;
+}
+
+.section-wrapper {
+
 }
 
 .tall {
@@ -79,6 +83,14 @@ paper-pink {
   background-repeat: repeat;
 }
 
+
+img {
+  width: 100%;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
 .menu {
   position: fixed;
   z-index: 500;
@@ -89,6 +101,7 @@ paper-pink {
   font-size: 30px;
   line-height: 27px;
   width: 58px;
+
 }
 
 @media only screen and (min-width: 64.0625em) .show-for-small-only .hide-for-medium-up {
