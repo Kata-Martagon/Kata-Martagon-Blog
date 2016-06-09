@@ -6,12 +6,19 @@ margin: 0;
 font-size: 1em;
 }
 
+
 html { font-size: 1em; }
 
 h1 { font-size: 2.074em; }
 
 h2 { font-size: 1.728em; }
 
+p {
+  color: black;
+  font-size: 100%;
+  padding:3vw;
+  margin:0;
+}
 
 .homepageMenu {
   width: 100%;
@@ -32,8 +39,18 @@ h2 { font-size: 1.728em; }
   padding-top: 120px;
   line-height: 27px;
   width: 160px;
-
 }
+
+.navBar {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:100;
+}
+
+
 
 .link {
   text-decoration: none;
@@ -183,6 +200,7 @@ section {
 }
 
 .header {
+  margin:0;
   text-align: center;
   color: rgb(181,206,220);
   z-index: 500;
