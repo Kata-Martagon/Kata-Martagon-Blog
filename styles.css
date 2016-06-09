@@ -4,7 +4,7 @@ html {
 
 body {
 font-family: 'Conv_gs', 'Gill Sans', Arial, sans-serif;
-font-weight: normal;
+font-weight: lighter;
 font-style: normal;
 margin: 0;
 height: 100%;
@@ -216,7 +216,7 @@ section {
   padding-top: 150px;
 }
 
-#fourth p, #seventh p{
+#fourth p, #seventh p, #first p{
   color: rgb(50,50,50);
 }
 

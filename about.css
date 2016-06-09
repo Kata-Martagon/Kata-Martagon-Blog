@@ -4,7 +4,7 @@ body {
   font-style: normal;*/
   background-image: url("background.jpg");
   color: rgb(255,253,247);
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1.5px 1px 1px black;
 }
 
 a.shadow-link {
