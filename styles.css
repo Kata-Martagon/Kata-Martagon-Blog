@@ -9,15 +9,17 @@ p, h2 {
 p {
   font-size: 100%;
   margin-top: 2vw;
+  border: 1px dotted green;
 }
 
-p:fist {
+p:first {
   margin-top: 0;
 }
 
 h2 {
   margin-top: 3vw;
   margin-bottom: 3vw;
+  border: 1px dashed red;
 }
 
 .fullWidth {
@@ -150,9 +152,9 @@ section {
   background-repeat: repeat;
 }*/
 
-#fourth p, #seventh p{
+/*#fourth p, #seventh p{
   color: rgb(50,50,50);
-}
+}*/
 
 section h1 {
   text-align: center;
