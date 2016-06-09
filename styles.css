@@ -5,6 +5,11 @@ font-style: normal;
 margin: 0;
 }
 
+p #font {
+  font-color: black;
+  font-size: 100%;
+}
+
 .homepageMenu {
   width: 100%;
   margin-left: auto;
@@ -127,7 +132,7 @@ section {
   background-color: rgb(47,155,214);
   background-position: center center;
   background-repeat: repeat;
-opacity: 0.9;
+  opacity: 0.9;
 }
 
 .blog3{
@@ -237,8 +242,23 @@ img {
 /*
       Media Queries
 */
-@media only screen and (min-width: 64.0625em) {
-  .show-for-small-only .hide-for-medium-up {
-  display: none !important;
+
+html { font-size: 1em; }
+
+h1 { font-size: 2.074em; }
+
+h2 { font-size: 1.728em; }
+
+h3 { font-size: 1.44em; }
+
+h4 { font-size: 1.2em; }
+
+/*small { font-size: 0.833em; }*/
+
+/*.box { padding: 1.25em; }*/
+
+@media screen and (min-width: 1400px) {
+  html { font-size: 1.25em; }
 }
+
 }
