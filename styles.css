@@ -119,6 +119,7 @@ section {
 
 .tall {
   height: 100vh;
+  overflow: hidden;
 }
 
 .row {
@@ -298,7 +299,7 @@ h2 { font-size: 1.728em; }*/
       width: 100%;
     }
     .tall {
-      height: 200vh;
+      height: 100vh;
       overflow: hidden;
     }
 }
