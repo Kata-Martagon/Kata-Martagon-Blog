@@ -11,8 +11,8 @@ height: 100%;
 }
 
 p {
-  color: black;
-  font-size: 100%;
+  color: rgb(255,253,247);
+  font-size: 20px;
   padding:3vw;
   margin:0;
 }
@@ -189,11 +189,11 @@ section {
 .header {
   margin:0;
   text-align: center;
-  color: rgb(181,206,220);
+  color: rgb(255,253,247);
+  letter-spacing: 8px;
   z-index: 500;
   top: 30px;
-  cursor: pointer;
-  font-size: 50px;
+  font-size:30px;
   padding-top: 150px;
 }
 
@@ -214,6 +214,10 @@ section {
   cursor: pointer;
   font-size: 50px;
   padding-top: 150px;
+}
+
+#fourth p, #seventh p{
+  color: rgb(50,50,50);
 }
 
 img {
