@@ -1,52 +1,19 @@
-html, body {
-  height: 100%;
-}
-
 body {
-  font-family: 'Conv_gs', 'Gill Sans', Arial, sans-serif;
+  /*font-family: 'Conv_gs', 'Gill Sans', Arial, sans-serif;
   font-weight: normal;;
-  font-style: normal;
+  font-style: normal;*/
   background-color: rgb(238,187,62);
   background-image: url("background.jpg");
   color: rgb(255,253,247);
   text-shadow: 1.5px 1px 1px black;
 }
 
-.menu {
-  position: fixed;
-  z-index: 500;
-  right: 20px;
-  top: 15px;
-  color: white;
-  padding: 7 0 7 7;
-  width: 58px;
-  text-align: center;
-}
-
-.menu a {
-  cursor: pointer;
-  font-size: 60px;
-  line-height: 27px;
-}
-
-.menu a:hover {
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-  font-size: 22px;
+a.shadow-link {
   text-shadow: 1.5px 1px 1px black;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .img-circle {
   border-radius: 50%;
-  width: 150px;
 }
 
 .person-details {
@@ -56,17 +23,39 @@ a:hover {
 .wrapper {
   width: 100%;
   position: relative;
-height: 100%;
+  height: 100%;
 }
 
-.wrapper > div {
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
+
 
 .wrapper > div > div {
-  width: 1200px;
+  width: 100%;
   margin: auto;
+}
+
+/******************************************************************************/
+/***************** Responsive styles ******************************************/
+/******************************************************************************/
+
+
+/*base larger screen styles*/
+@media (min-width: 600px) {
+  .wrapper > div {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .img-circle {
+    width: 150px;
+  }
+
+}
+
+/*base mobile styles*/
+@media (max-width: 600px) {
+  .img-circle {
+    width: 150px;
+  }
 }

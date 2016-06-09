@@ -36,7 +36,7 @@
 [class*='col-'] {
   float: left;
   padding: 10px;
-  
+
 }
 
 /* Float last ".col-" to the right */
@@ -64,3 +64,37 @@
 /******************************************************************************/
 /***************** Responsive styles ******************************************/
 /******************************************************************************/
+
+
+/*base tablet to small desktop styles*/
+@media (min-width: 600px) and (max-width: 1200px) {
+  .col-2,
+  .col-7 {
+    width: 100%;
+  }
+
+  .col-4,
+  .col-8,
+  .col-10,
+  .col-12 {
+    width: 50%;
+  }
+}
+
+/*base mobile styles*/
+@media (max-width: 600px) {
+  .col-4,
+  .col-6,
+  .col-8,
+  .col-10,
+  .col-12,
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-5,
+  .col-7,
+  .col-9,
+  .col-11 {
+    width: 100%;
+  }
+}
