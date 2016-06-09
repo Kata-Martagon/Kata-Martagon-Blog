@@ -29,21 +29,21 @@ function doSomething(scroll_pos) {
 
     if (elementInViewport(document.getElementById("first")) === true) {
       // pic.src = "http://i.telegraph.co.uk/multimedia/archive/02830/cat_2830677b.jpg"
-      pic1.style.opacity = 1
-      pic2.style.opacity = 0
-      pic3.style.opacity = 0
+      pic1.style.opacity = 1;
+      pic2.style.opacity = 0;
+      pic3.style.opacity = 0;
     }
     else if (elementInViewport(document.getElementById("second")) === true) {
       // pic.src = "https://i.vimeocdn.com/portrait/58832_300x300.jpg"
-      pic1.style.opacity = 0
-      pic2.style.opacity = 1
-      pic3.style.opacity = 0
+      pic1.style.opacity = 0;
+      pic2.style.opacity = 1;
+      pic3.style.opacity = 0;
     }
     else if (elementInViewport(document.getElementById("third")) === true) {
       // pic.src = "https://upload.wikimedia.org/wikipedia/commons/8/8e/Eyjafjallaj%C3%B6kull.jpeg"
-      pic1.style.opacity = 0
-      pic2.style.opacity = 0
-      pic3.style.opacity = 1
+      pic1.style.opacity = 0;
+      pic2.style.opacity = 0;
+      pic3.style.opacity = 1;
     }
 
 };
