@@ -1,0 +1,40 @@
+body {
+  background-color: #000;
+  color: #FFF;
+}
+
+.about {
+  position: fixed;
+  left: 50px;
+  top: 50px;
+}
+
+.links {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.about a, .blog a {
+  font-size: 50px;
+}
+
+.links a {
+  font-size: 80px;
+}
+
+.about a:hover, .links a:hover, .blog a:hover {
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.blog {
+  width: 100px;
+  margin: auto;
+}
