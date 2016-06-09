@@ -6,13 +6,6 @@ margin: 0;
 font-size: 1em;
 }
 
-
-html { font-size: 1em; }
-
-h1 { font-size: 2.074em; }
-
-h2 { font-size: 1.728em; }
-
 p {
   color: black;
   font-size: 100%;
@@ -49,7 +42,6 @@ p {
   left: 0;
   z-index:100;
 }
-
 
 
 .link {
@@ -111,11 +103,11 @@ p {
 }
 
 .left {
-  float: left !important;
+  float: left;
 }
 
 .right {
-  float: right !important;
+  float: right;
 }
 
 .separation-line:after {
@@ -161,7 +153,6 @@ section {
   background-repeat: repeat;
   opacity: 0.9;
 }
-
 
 .links1{
   background-color: rgb(238,187,62);
@@ -270,18 +261,18 @@ h1 { font-size: 2.074em; }
 
 h2 { font-size: 1.728em; }*/
 
-h3 { font-size: 1.44em; }
 
-h4 { font-size: 1.2em; }
-
-/*small { font-size: 0.833em; }*/
-
-/*.box { padding: 1.25em; }*/
 
 @media screen and (min-width: 1400px) {
   html { font-size: 1.25em; }
 }
 
-@media screen and (max-width: 900px) {
-  html {font-size: .4 em; }
+
+@media screen and (max-width: 700px) {
+    .halfWidth {
+      width: 100%;
+    }
+    .left{
+      width: 0%;
+    }
 }
