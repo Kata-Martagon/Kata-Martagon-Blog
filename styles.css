@@ -53,8 +53,6 @@ p {
   color: white;
 }
 
-
-
 .homepageMenu .blog {
   color: white;
   text-align: center;
@@ -94,7 +92,7 @@ p {
   position: fixed;
   top: 0;
   z-index: 99;
-  left: 0;;
+  left: 0;
 }
 
 .left {
@@ -122,6 +120,7 @@ section {
 .tall {
   height: 100vh;
 }
+
 .row {
   margin: 0 auto;
   max-width: 62.5rem;
@@ -296,9 +295,10 @@ h2 { font-size: 1.728em; }*/
     .imageforMobile {
       display: block;
       height: 100%;
+      width: 100%;
     }
+    .tall {
+      height: 200vh;
+      overflow: hidden;
     }
-  /*.tall {
-    height: 200vh;
-  }*/
 }
