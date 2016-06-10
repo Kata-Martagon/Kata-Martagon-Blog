@@ -1,4 +1,16 @@
 
+html {
+  height: 100%;
+}
+
+body {
+font-family: 'Conv_gs', 'Gill Sans', Arial, sans-serif;
+font-weight: lighter;
+font-style: normal;
+margin: 0;
+height: 100%;
+}
+
 p, h2 {
   color: rgb(255,253,247);
   padding-left:3vw;
@@ -16,8 +28,11 @@ p:first {
 }
 
 h2 {
-  margin-top: 3vw;
+  margin-top: 10vw;
   margin-bottom: 3vw;
+  font-weight: lighter;
+  text-align: center;
+  letter-spacing: 5px;
 }
 
 .fullWidth {
@@ -94,27 +109,27 @@ section {
 
 .blog1 {
   background-color: rgb(111,178,214);
-  /*background-position: center center;
+  background-position: center center;
   background-repeat: repeat;
-  opacity: 0.9;*/
+  opacity: 0.9;
 }
 
 .blog2{
   background-color: rgb(47,155,214);
-  /*background-position: center center;
+  background-position: center center;
   background-repeat: repeat;
-  opacity: 0.9;*/
+  opacity: 0.9;
 }
 
 .blog3{
   background-color: rgb(30,99,137);
-  /*background-position: center center;
+  background-position: center center;
   background-repeat: repeat;
-  opacity: 0.9;*/
+  opacity: 0.9;
 }
 
 
-/*.blog4{
+.blog4{
   background-color: rgb(238,187,62);
   background-position: center center;
   background-repeat: repeat;
@@ -150,9 +165,6 @@ section {
   background-repeat: repeat;
 }*/
 
-#fourth p, #seventh p{
-  color: rgb(50,50,50);
-}
 
 section h1 {
   text-align: center;
@@ -161,7 +173,7 @@ section h1 {
   margin-top: 150px;
 }
 
-#fourth p, #seventh p{
+#fourth p, #seventh p, #first p{
   color: rgb(50,50,50);
 }
 
