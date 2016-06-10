@@ -1,3 +1,4 @@
+
 html {
   height: 100%;
 }
@@ -10,56 +11,28 @@ margin: 0;
 height: 100%;
 }
 
-p {
+p, h2 {
   color: rgb(255,253,247);
-  font-size: 20px;
-  padding:3vw;
+  padding-left:3vw;
+  padding-right:3vw;
   margin:0;
 }
 
-.homepageMenu {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 100%;
-  height: 100%;
-  background-color: black;
+p {
+  font-size: 100%;
+  margin-top: 2vw;
 }
 
-.homepageMenu .about {
-  right: 50px;
-  padding-left: 100px;
-  top: 15px;
-  z-index: 500;
-  cursor: pointer;
-  font-size: 50px;
-  padding-top: 120px;
-  line-height: 27px;
-  width: 160px;
+p:fist {
+  margin-top: 0;
 }
 
-.navBar {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index:100;
-}
-
-
-.link {
-  text-decoration: none;
-  color: white;
-}
-
-.homepageMenu .blog {
-  color: white;
+h2 {
+  margin-top: 10vw;
+  margin-bottom: 3vw;
+  font-weight: lighter;
   text-align: center;
-  z-index: 500;
-  cursor: pointer;
-  font-size: 50px;
-  padding-top: 150px;
+  letter-spacing: 5px;
 }
 
 .fullWidth {
@@ -128,6 +101,12 @@ section {
   width: 100%;
 }
 
+[class~='blog'] {
+  background-position: center center;
+  background-repeat: repeat;
+  opacity: 0.9;
+}
+
 .blog1 {
   background-color: rgb(111,178,214);
   background-position: center center;
@@ -178,42 +157,20 @@ section {
   background-color: rgb(114,122,166);
   background-position: center center;
   background-repeat: repeat;
-}head
+}
 
 .blog9{
   background-color: rgb(1,3,38);
   background-position: center center;
   background-repeat: repeat;
-}
+}*/
 
-.header {
-  margin:0;
-  text-align: center;
-  color: rgb(255,253,247);
-  letter-spacing: 8px;
-  z-index: 500;
-  top: 30px;
-  font-size:30px;
-  padding-top: 150px;
-}
 
-.links-header {
+section h1 {
   text-align: center;
-  color: rgb(255,253,247);
-  z-index: 500;
-  top: 30px;
-  cursor: pointer;
+  color: rgb(181,206,220);
   font-size: 50px;
-  padding-top: 150px;
-}
-.header-about {
-  text-align: center;
-  color: rgb(1,30,51);
-  z-index: 500;
-  top: 30px;
-  cursor: pointer;
-  font-size: 50px;
-  padding-top: 150px;
+  margin-top: 150px;
 }
 
 #fourth p, #seventh p, #first p{
@@ -233,61 +190,13 @@ img {
   transition: opacity 1s ease-in-out;
 }
 
-
-.menu {
-  position: fixed;
-  z-index: 500;
-  right: 20px;
-  top: 15px;
-  color: white;
-  padding: 7 0 7 7;
-  cursor: pointer;
-  font-size: 40px;
-  line-height: 27px;
-  width: 58px;
-  text-align: center;
-}
-
-.link2 {
-  text-decoration: none;
-  color: white;
-}
-
 .imageforMobile {
   display: none;
 }
 
-.homepageMenu .links {
-  position: fixed;
-  color: white;
-  text-align: right;
-  z-index: 500;
-  right: 20px;
-  top: 15px;
-  padding: 7 0 7 7;
-  cursor: pointer;
-  font-size: 70px;
-  line-height: 27px;
-  width: 58px;
-  text-align: center;
-}
-
-/*
-      Media Queries
-*/
-
-/*html { font-size: 1em; }
-
-h1 { font-size: 2.074em; }
-
-h2 { font-size: 1.728em; }*/
-
-
-
 @media screen and (min-width: 1400px) {
   html { font-size: 1.25em; }
 }
-
 
 @media screen and (max-width: 700px) {
     .halfWidth {
