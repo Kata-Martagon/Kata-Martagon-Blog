@@ -69,4 +69,4 @@ function scrollToNextSection (scrollDirection) {
   scrollToY(nextY + getWindowScrollOffset().top, 1000, 'easeInOutQuint');
 }
 
-// onScrollEnd(scrollToNextSection);
+onScrollEnd(scrollToNextSection);
