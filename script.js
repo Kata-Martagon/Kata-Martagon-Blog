@@ -27,7 +27,7 @@ function doSomething(scroll_pos) {
   var pic2 = document.getElementById("img2");
   var pic3 = document.getElementById("img3");
   var pic4 = document.getElementById("img4");
-
+console.log("active")
     if (elementInViewport(document.getElementById("first")) === true) {
       // pic.src = "http://i.telegraph.co.uk/multimedia/archive/02830/cat_2830677b.jpg"
       pic1.style.opacity = 1;

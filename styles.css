@@ -183,6 +183,7 @@ img {
 
 #fade img {
   position:absolute;
+  height:100vh;
   left:0;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
