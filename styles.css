@@ -11,7 +11,7 @@ p {
   margin-top: 2vw;
 }
 
-p:fist {
+p:first {
   margin-top: 0;
 }
 
@@ -198,5 +198,15 @@ img {
       display: block;
       height: 100%;
       width: 100%;
+    }
+    .imageforMobile img {
+      display: block;
+      height: 100%;
+      width: 100%;
+    }
+    p {
+      padding-left:5vw;
+      padding-right:5vw;
+      font-size:12px;
     }
 }
