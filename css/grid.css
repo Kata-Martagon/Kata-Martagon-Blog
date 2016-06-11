@@ -65,8 +65,9 @@
 }
 
 /*base mobile styles*/
+
 @media (max-width: 600px) {
-  [class~='col-'] {
+  [class*='col-'] {
     width: 100%;
   }
 }
