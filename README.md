@@ -15,4 +15,3 @@ Target Chrome and Safari browsers.
 - Add animations to the scolling and fixed sides to make the transitions between projects smoother.
 - Use JS to make transitions beautiful.
 - Target Firefox browser.
--Drawn images for About.
