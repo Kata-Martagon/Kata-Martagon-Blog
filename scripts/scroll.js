@@ -53,7 +53,7 @@ function scrollToSection (sectionName) {
 }
 
 function scrollToNextSection (scrollDirection) {
-  var sectionNames = ['first', 'second', 'third'];
+  var sectionNames = ['first', 'second', 'third','fourth'];
   if (scrollDirection === 'up') sectionNames.reverse();
 
   var nextY =
